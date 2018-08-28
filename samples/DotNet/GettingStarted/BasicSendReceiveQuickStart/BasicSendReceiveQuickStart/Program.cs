@@ -12,8 +12,8 @@ namespace BasicSendReceiveQuickStart
 
         static void Main(string[] args)
         {
-            string ServiceBusConnectionString = "";
-            string QueueName = "";
+            string ServiceBusConnectionString = "Endpoint=sb://hounbuservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ERLHXdyx8lsMDQlNOreW01S4HsAYqOiyoTAsthckTz0=";
+            string QueueName = "hounbuservicesbusq";
 
             for (int i = 0; i < args.Length; i++)
             {
